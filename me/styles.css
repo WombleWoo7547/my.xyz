@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(5,10,25);
+  margin: 0; /* Remove default margin for better layout */
+  font-family: Arial, sans-serif; /* Choose your preferred font */
+}
+
+.content-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the div */
+  width: 75vw; /* Occupy full viewport width */
+  height: 10vh; /* Set height to 90% of viewport height */
+  padding: 5vh; /* Padding of 5% of viewport height */
+  border-radius: 2.5vh;
+  background-color: rgba(0, 110, 255, 0.75); /* Optional background with transparency */
+  color: white; /* Text color for content inside the div */
+}
+
+p {
+  padding: 10px;
+}
+
+
+body { 
+  opacity: 0;
+  transition: opacity 5s;
+}
